@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TLV320DAC") (type "KiCad") (uri "${KIPRJMOD}/../../../libs/footprints/TLV320DAC3100IRHBR.pretty") (options "") (descr "TLV320DAC3100 Audio Codec"))
+)
