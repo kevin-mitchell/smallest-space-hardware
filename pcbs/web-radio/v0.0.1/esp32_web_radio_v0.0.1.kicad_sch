@@ -7456,6 +7456,10 @@
 		(uuid "411cb9b4-67ae-402f-b0de-965ac076c8ba")
 	)
 	(no_connect
+		(at 246.38 185.42)
+		(uuid "41b92fbb-67f0-43b6-b30c-b46132b8fd7f")
+	)
+	(no_connect
 		(at 350.52 109.22)
 		(uuid "46f3f25e-794c-4ce7-9ac9-176ff44af49a")
 	)
@@ -7486,6 +7490,10 @@
 	(no_connect
 		(at 350.52 119.38)
 		(uuid "acb513d0-f8fb-47ff-a3bf-0a3bd8d79b05")
+	)
+	(no_connect
+		(at 320.04 99.06)
+		(uuid "acc2d7e7-86d9-4bc7-86c3-7b65c5d57336")
 	)
 	(no_connect
 		(at 350.52 93.98)
@@ -7791,7 +7799,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 257.81) (xy 41.91 257.81)
+			(xy 16.51 257.81) (xy 41.91 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8131,16 +8139,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 180.34) (xy 205.74 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48da545b-a8c5-410b-be31-6b05ce53dd2f")
-	)
-	(wire
-		(pts
 			(xy 26.67 247.65) (xy 24.13 247.65)
 		)
 		(stroke
@@ -8348,16 +8346,6 @@
 			(type default)
 		)
 		(uuid "5f696ae3-f807-47db-89e5-84d427daeee3")
-	)
-	(wire
-		(pts
-			(xy 308.61 99.06) (xy 320.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb3740c-349b-4586-a9db-2eb69df8490d")
 	)
 	(wire
 		(pts
@@ -8658,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "7bb4044f-b508-4387-ae89-b9021872fa42")
+	)
+	(wire
+		(pts
+			(xy 36.83 144.78) (xy 39.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bca9c49-6246-43b5-ab1f-32baf34e9c96")
 	)
 	(wire
 		(pts
@@ -8992,16 +8990,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 144.78) (xy 39.37 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a58cf520-b23d-4c1b-a759-1b415f93d651")
-	)
-	(wire
-		(pts
 			(xy 57.15 54.61) (xy 67.31 54.61)
 		)
 		(stroke
@@ -9049,6 +9037,16 @@
 			(type default)
 		)
 		(uuid "abeb392c-3f2b-4b88-a4d7-4a460b824a19")
+	)
+	(wire
+		(pts
+			(xy 40.64 260.35) (xy 41.91 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8154c4-7afc-430b-87c7-08c8608d6cb5")
 	)
 	(wire
 		(pts
@@ -15165,16 +15163,6 @@
 		)
 		(uuid "31234c3d-8769-4422-809d-cfd728934b6c")
 	)
-	(label "ENABLE_SWITCH"
-		(at 21.59 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "483dbd65-fdc6-4d07-b1c5-f95caa8a89f1")
-	)
 	(label "USB_P"
 		(at 69.85 54.61 0)
 		(effects
@@ -15373,6 +15361,30 @@
 			)
 		)
 	)
+	(global_label "MICROPHONE_INPUT"
+		(shape input)
+		(at 40.64 260.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40b9909b-fb5e-4b25-9475-c749bd6c2b96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.8466 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MUTE"
 		(shape input)
 		(at 355.6 101.6 0)
@@ -15469,30 +15481,6 @@
 			)
 		)
 	)
-	(global_label "DOUT"
-		(shape input)
-		(at 185.42 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60a0ecac-60f0-47e9-9684-0aa82984f97b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5362 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 317.5 88.9 180)
@@ -15586,6 +15574,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ENABLED_SWITCH"
+		(shape input)
+		(at 36.83 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e92008b-0ecd-4a05-bf93-cfad529c34a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.7582 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -15901,30 +15913,6 @@
 			)
 		)
 	)
-	(global_label "DOUT"
-		(shape input)
-		(at 308.61 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7626ac8-9d41-48a1-bedd-005420225b87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.7262 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DIN"
 		(shape input)
 		(at 317.5 96.52 180)
@@ -16177,7 +16165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031197c3-8a3a-4158-a90c-d97646d57725")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR034"
 			(at 187.96 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16237,7 +16225,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR040")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16255,7 +16243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05fee14a-9fe9-4f61-ba17-58d37316d3c8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16315,7 +16303,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16333,7 +16321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07988331-a908-45b9-a071-f5f5b44fee82")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 247.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16393,7 +16381,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16411,7 +16399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08089c59-9b7d-489d-959d-03e3ff9e8925")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 82.55 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16475,7 +16463,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16493,7 +16481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a24054-9c77-43a4-ba53-a615941a0ae5")
-		(property "Reference" "C17"
+		(property "Reference" "C10"
 			(at 165.1 256.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16557,7 +16545,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C17")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16574,7 +16562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "095548e6-f31f-4074-ba59-e62591cc31d2")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 68.58 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -16634,7 +16622,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -16652,7 +16640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a8a1143-082a-4652-8586-516d69063936")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 185.42 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16716,7 +16704,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16734,7 +16722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0abc3a79-aca8-4a7d-8011-2fd7dcdd2d2e")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 41.91 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16807,7 +16795,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -16825,7 +16813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e67072b-6c35-49f4-8561-e89fe7fe32eb")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR025"
 			(at 149.86 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16886,7 +16874,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR033")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16980,7 +16968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f3c4911-c63c-4db1-86f8-ad1f1e5d5c94")
-		(property "Reference" "C3"
+		(property "Reference" "C22"
 			(at 320.04 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17044,7 +17032,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C3")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -17061,7 +17049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10198ad7-12af-4128-bd6b-39e3889f574a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR013"
 			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17121,7 +17109,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17139,7 +17127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "127e9461-2b2d-4b88-be8b-db6630328a4a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR048"
 			(at 372.11 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -17200,7 +17188,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR020")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17217,7 +17205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "147dcab0-4b26-438d-ba63-fd360b99ef0f")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 359.41 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17279,7 +17267,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17296,7 +17284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "155a70d4-a81d-402d-86d6-30e72d55cd99")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 255.27 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17358,7 +17346,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -17376,7 +17364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1582d845-19a3-4ae6-b4cd-5fd9d180e38c")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 220.98 132.0801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17440,7 +17428,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17457,7 +17445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17cae748-12dd-41c1-9b9f-733a2df1d20f")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 68.326 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17519,7 +17507,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17537,7 +17525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ac8eede-9d62-43d1-9876-099e56355eac")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR030"
 			(at 176.53 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -17597,7 +17585,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR045")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17615,7 +17603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21135284-ea79-478e-afcd-52fdb656760b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR037"
 			(at 226.06 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17675,7 +17663,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR014")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17692,7 +17680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22f31595-a7e4-4081-8bc3-5026f02d1f6b")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 199.39 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17754,7 +17742,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -17772,7 +17760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "267de4a3-861e-4bc5-91e8-583771464cda")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 233.68 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17834,7 +17822,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -17852,7 +17840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a6c84c-f22c-4ea7-9a31-59618ad153cf")
-		(property "Reference" "C22"
+		(property "Reference" "C9"
 			(at 144.78 256.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17916,7 +17904,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C22")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17934,7 +17922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29844dea-fd19-4db6-a088-b09b55476277")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 82.55 122.8724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17998,7 +17986,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -18095,7 +18083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f43b7a0-6e56-4afd-8994-07e24afd34a7")
-		(property "Reference" "C24"
+		(property "Reference" "C2"
 			(at 36.83 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18157,7 +18145,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C24")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -18175,7 +18163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "327171df-e31d-4cb6-abab-0a4ddababc19")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 234.95 132.0801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18239,7 +18227,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -18257,7 +18245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "381ee3f5-1e68-4f53-8c8c-5c9cbd384463")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR044"
 			(at 270.51 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18317,7 +18305,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR026")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -18334,7 +18322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39f7e346-5fc2-4f06-8b61-96c5603986b1")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 276.86 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18396,7 +18384,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18413,7 +18401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bb7d625-3238-4375-85cf-b42ebf5b18ff")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 194.31 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18475,7 +18463,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18493,7 +18481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd4a8db-1ede-450c-b22d-267d954b3562")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR022"
 			(at 120.65 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18553,7 +18541,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR07")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18571,7 +18559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e91fd01-6611-41b9-85ce-2cf314585c43")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR028"
 			(at 175.26 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18631,7 +18619,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR039")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18649,7 +18637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eaa2083-4227-4262-a32f-0343608428d0")
-		(property "Reference" "C4"
+		(property "Reference" "C18"
 			(at 252.73 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18713,7 +18701,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C4")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18731,7 +18719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb226e2-7ffd-4420-a71f-46b89e46b0e3")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR07"
 			(at 34.29 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -18791,7 +18779,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR030")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -18809,7 +18797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40dc72ef-7edf-401e-92be-f1d88b47aa04")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR046"
 			(at 308.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18870,7 +18858,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR011")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18888,7 +18876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468046b3-9fd4-4281-93c7-ceefae532f9a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR027"
 			(at 166.37 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -18949,7 +18937,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR08")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18967,7 +18955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "485027fb-b67e-4a1d-9db9-bbbff5fa278e")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 109.22 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19031,7 +19019,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19049,7 +19037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48787291-5513-4a23-b252-f6773996f82a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR040"
 			(at 227.33 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19110,7 +19098,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR015")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19128,7 +19116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4921c272-9a84-4b33-a9e8-36b6d2297ce1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR042"
 			(at 248.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -19188,7 +19176,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR013")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -19206,7 +19194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac9d033-67d1-49e4-b98d-fc939e1b7720")
-		(property "Reference" "C5"
+		(property "Reference" "C20"
 			(at 262.89 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19270,7 +19258,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C5")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -19289,7 +19277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c410bd9-f07c-4bc5-b57b-94086555ebc9")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 54.61 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19309,7 +19297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smallest-space-hardware/libs:SON95P300X300X100-7N"
+		(property "Footprint" "smallest.space:SON95P300X300X100-7N"
 			(at 54.61 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -19991,7 +19979,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -20009,7 +19997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ff0d589-c3d3-463d-b58b-3020632d900f")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 252.73 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20067,7 +20055,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -20085,7 +20073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502ba48a-63af-4672-81da-f94a5426533f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 176.53 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -20145,7 +20133,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -20163,7 +20151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50db74be-2463-4893-a850-1ab74b62bbeb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR032"
 			(at 181.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20223,7 +20211,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR037")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20241,7 +20229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "517193f2-f027-45f8-a70d-e90f2f0562a8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR038"
 			(at 231.14 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20301,7 +20289,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR041")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20319,7 +20307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "540ec2ec-6390-4762-87af-6e6a307a753a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR08"
 			(at 36.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20379,7 +20367,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR025")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20396,7 +20384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59e1e1ac-139b-4a2d-a0ca-26508776eafe")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR045"
 			(at 294.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -20457,7 +20445,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR012")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -20474,7 +20462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "649e1557-b9b1-4fea-bd0d-9dfa8a7b7587")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 114.3 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20536,7 +20524,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -20554,7 +20542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65760ebd-7a21-4bef-88c0-765a268e1812")
-		(property "Reference" "C19"
+		(property "Reference" "C5"
 			(at 96.52 253.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20618,7 +20606,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C19")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20636,7 +20624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665c04a6-ff1f-4ffb-abaf-706221458672")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR026"
 			(at 149.86 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -20697,7 +20685,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR036")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20715,7 +20703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68182b1e-2027-4a1f-b093-1dac48c9f544")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR03"
 			(at 24.13 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20775,7 +20763,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR028")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20869,7 +20857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e00ce45-64b6-4fb7-8fdc-f0f85ac2f309")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 185.42 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20933,7 +20921,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -20950,7 +20938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f6b2247-2f32-4e9d-8a4e-d20661879ceb")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 181.61 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21012,7 +21000,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R16")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -21030,7 +21018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73f3d66f-71bd-4894-87d8-95f469a77514")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -21090,7 +21078,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21108,7 +21096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be58d19-278b-4ef2-b40b-28d17064e95c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR043"
 			(at 259.08 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21168,7 +21156,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR016")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -21186,7 +21174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83333ce4-ee55-4475-9bed-e986a60ff531")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR05"
 			(at 29.21 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -21246,7 +21234,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR029")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -21264,7 +21252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a544f26-7bf1-4c44-81e0-d54deeab3ee6")
-		(property "Reference" "C12"
+		(property "Reference" "C19"
 			(at 250.19 146.0501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21328,7 +21316,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C12")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -21345,7 +21333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a65ef95-a268-465a-96f6-2b108d20b72f")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 32.766 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21407,7 +21395,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21425,7 +21413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ad9d37d-32d2-4a4d-8265-dbfe4390f29e")
-		(property "Reference" "C23"
+		(property "Reference" "C1"
 			(at 30.48 240.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21487,7 +21475,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C23")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -21504,7 +21492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2521f1-11f8-4879-96da-208abc468f10")
-		(property "Reference" "C2"
+		(property "Reference" "C21"
 			(at 295.91 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21568,7 +21556,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C2")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21586,7 +21574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d64c1eb-e70f-455e-abfd-ebfcf7700300")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR020"
 			(at 107.95 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -21646,7 +21634,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR03")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -21663,7 +21651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e257437-7fcc-456c-bd8b-1924e3c50a8f")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 101.6 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21739,7 +21727,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -21757,7 +21745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d9c9d8-7bdf-4a12-973c-10a3a27dc1c3")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 337.4741 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21938,7 +21926,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -21956,7 +21944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ea00ea-0493-4564-8a65-ba3c277f7848")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 24.13 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -22016,7 +22004,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -22034,7 +22022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b4f711-d0e6-493e-b3e6-a34203537f6d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR016"
 			(at 91.44 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -22094,7 +22082,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR02")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -22112,7 +22100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9432bbed-7213-4b66-ad25-8cf0dd442abb")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR010"
 			(at 43.18 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -22172,7 +22160,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR018")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -22189,7 +22177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9538b32e-ca38-4ff8-b063-dcda89afdbe6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 85.09 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -22249,7 +22237,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR022")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -22267,7 +22255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a8db1b-a29b-4b27-8dd5-5aea687fd088")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR047"
 			(at 335.28 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -22327,7 +22315,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR019")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22424,7 +22412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9def4bd1-4294-4d82-b0cb-6631e8a3dd89")
-		(property "Reference" "C20"
+		(property "Reference" "C7"
 			(at 109.22 256.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22488,7 +22476,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C20")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -22506,7 +22494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2837ec4-953f-4e2e-b252-2fe340e1d894")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -22566,7 +22554,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -22584,7 +22572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a768cc2e-9bc5-4f7b-b9ea-5765e92af162")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 271.78 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22642,7 +22630,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -22660,7 +22648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a6b679-3746-4f79-a277-1a27f8dc6ca3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR019"
 			(at 100.33 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22720,7 +22708,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR046")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -22738,7 +22726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3ec765-23ab-4485-a0d1-45e2b194fd31")
-		(property "Reference" "SW1"
+		(property "Reference" "SW6"
 			(at 245.11 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22800,7 +22788,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "SW1")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -22818,7 +22806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc237fb-e825-4c70-9c87-c68639aa2152")
-		(property "Reference" "SW8"
+		(property "Reference" "SW4"
 			(at 167.64 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22880,7 +22868,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "SW8")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -22898,7 +22886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae1452f6-83b5-4b95-b18a-10246a5729f4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR023"
 			(at 137.16 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22958,7 +22946,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR047")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22976,7 +22964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2edcd3c-e0d2-4179-88ce-2722ad70468c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR02"
 			(at 17.78 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -23036,7 +23024,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR027")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -23054,7 +23042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a8327b-1428-4262-9d9c-7701e522ec1d")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 110.49 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23118,7 +23106,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -23136,7 +23124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d80510-7c95-41fd-bdde-f0dfd1026f07")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR039"
 			(at 231.14 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -23196,7 +23184,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -23214,7 +23202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4838a15-92a4-4c5c-9589-93fea83fbbf8")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 88.9 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23278,7 +23266,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C15")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -23295,7 +23283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b546d477-a531-44cf-8044-23f30b71434a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -23356,7 +23344,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -23374,7 +23362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5638a8e-5960-4156-a6b4-48ff122bd378")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 40.64 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23396,7 +23384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "smallest-space-hardware/libs:GCT_USB4085-GF-A_REVB"
+		(property "Footprint" "smallest.space:GCT_USB4085-GF-A_REVB"
 			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23637,7 +23625,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -23655,7 +23643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6427b5f-c3b7-48bf-a20f-6a1d2f9f96db")
-		(property "Reference" "C21"
+		(property "Reference" "C8"
 			(at 133.35 253.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23719,7 +23707,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C21")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -23727,7 +23715,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 257.81 0)
+		(at 16.51 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23737,8 +23725,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7cf90b9-e6a9-4b79-8817-35829621f315")
-		(property "Reference" "#PWR048"
-			(at 19.05 264.16 0)
+		(property "Reference" "#PWR01"
+			(at 16.51 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23749,7 +23737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 262.89 0)
+			(at 16.51 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23759,7 +23747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 257.81 0)
+			(at 16.51 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23770,7 +23758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 257.81 0)
+			(at 16.51 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23781,7 +23769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 257.81 0)
+			(at 16.51 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23797,7 +23785,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR048")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -23968,7 +23956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbfb09dd-bc94-4025-ab33-738bebe025bb")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 199.39 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24030,7 +24018,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -24048,7 +24036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b2334e-3d06-44b8-bbbc-aac365163511")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 233.2833 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24205,7 +24193,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -24223,7 +24211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c539f8e4-6e82-4e9f-aa60-3c7114fc3d8b")
-		(property "Reference" "C11"
+		(property "Reference" "C17"
 			(at 236.22 146.0501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24287,7 +24275,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C11")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24305,7 +24293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c989132f-95ed-46b3-955d-68e355415d6b")
-		(property "Reference" "C6"
+		(property "Reference" "C11"
 			(at 180.34 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24369,7 +24357,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C6")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -24387,7 +24375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccae2e56-5911-40f8-b7c0-4eda1a410353")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 162.56 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24449,7 +24437,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -24467,7 +24455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ced6f616-d882-4351-af2b-9eeb2c84f550")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR018"
 			(at 100.33 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -24527,7 +24515,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR044")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -24545,7 +24533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d02a374d-1144-426c-8a30-b6445e00d040")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 180.0225 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24607,7 +24595,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -24625,7 +24613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d123bc26-374d-4c72-b922-97ed899acb6b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR015"
 			(at 91.44 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -24685,7 +24673,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR023")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -24703,7 +24691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32c4207-f8e2-4bc0-b607-86c54b9216d6")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 167.64 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24765,7 +24753,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -24783,7 +24771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d334e0f2-dda0-4439-a627-e2c7c9d4f767")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -24843,7 +24831,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -24861,7 +24849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5e8697f-1546-4011-ab18-fb11fa32b930")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 95.25 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24925,7 +24913,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -25037,7 +25025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a7adf9-f0b8-49f8-9c13-7f310dd2da17")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 35.56 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25113,7 +25101,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -25130,7 +25118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d89cda35-47f0-4ca2-9f60-dfcaada91f50")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 191.77 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25192,7 +25180,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -25209,7 +25197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de487a40-eb20-4f91-9386-563007c18e51")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 194.31 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25271,7 +25259,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -25289,7 +25277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fdfdc3-3b8a-4ab5-a2cf-911372f6f580")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 184.15 256.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25353,7 +25341,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -25370,7 +25358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1429b6a-b77e-45c4-9493-814b1b4fc162")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 68.58 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25432,7 +25420,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -25450,7 +25438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36fc759-e3f9-4a1c-9d65-ecc774cb3990")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 29.21 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -25510,7 +25498,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -25528,7 +25516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e912bfb7-222e-4873-89d3-ef5c55467b43")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25588,7 +25576,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -25606,7 +25594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebbaa640-5184-4eed-85fd-7dc723a21b69")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 270.51 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25670,7 +25658,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -25688,7 +25676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68ac631-a4a9-4968-8b83-a6c2b3a390e6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR031"
 			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25748,7 +25736,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR034")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -25766,7 +25754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fddbd064-a98b-497c-8099-067f4965de73")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR012"
 			(at 73.66 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -25826,7 +25814,7 @@
 		(instances
 			(project "esp32_web_radio_v0.0.1"
 				(path "/840f4d27-b200-4683-84a6-ea26df310383"
-					(reference "#PWR01")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
