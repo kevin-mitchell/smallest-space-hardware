@@ -1,0 +1,82 @@
+(footprint "54-00177-headphone-3.5mm-jack"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "632144f1-d85f-4bae-9ec8-284d9e54f2d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "54-00177-headphone-3.5mm-jack"
+		(at 4.5 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cce3e541-5f96-4fff-9b36-df0ef64b122a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea27901-2c7d-49ef-978d-1906d90bdde6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd354bc3-f42b-4c99-8323-a2463081bff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 6.3 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4473b01c-c542-43a2-84ff-69715a079485")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "606f6a1a-4ff4-4852-824d-517a040e97a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

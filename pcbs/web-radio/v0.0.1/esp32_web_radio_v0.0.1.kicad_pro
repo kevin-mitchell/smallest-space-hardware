@@ -735,7 +735,7 @@
         "uuid": "840f4d27-b200-4683-84a6-ea26df310383"
       }
     ],
-    "used_designators": "VOL_UP1,VOL_MUTE1,VOL_DOWN1,IC1,STATUS1,VOLUME_UP1,VOLUME_DOWN1,MUTE1,R7,R10,R13-18,#PWR10,#PWR17-18,#PWR24-25,#PWR27-47,D2,U1,U3,SW3-8,C6-22,J1-2,J4",
+    "used_designators": "J1-2,#PWR48,C23-24,U5",
     "variants": []
   },
   "sheets": [
