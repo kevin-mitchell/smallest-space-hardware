@@ -533,7 +533,6 @@
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -552,7 +551,6 @@
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -561,7 +559,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(39, 44, 74)",
-        "track_width": 0.127,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -571,7 +569,6 @@
         "bus_width": 8,
         "clearance": 0.127,
         "diff_pair_gap": 0.3,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.35,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -735,7 +732,7 @@
         "uuid": "840f4d27-b200-4683-84a6-ea26df310383"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR23,#PWR57-60",
     "variants": []
   },
   "sheets": [
