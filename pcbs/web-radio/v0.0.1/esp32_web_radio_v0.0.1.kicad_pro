@@ -523,7 +523,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -541,7 +541,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(104, 0, 77)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -587,7 +587,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(31, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -609,7 +611,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber_files_main_v0.3.1/",
+      "plot": "web-radio_gerbers_v0.0.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -732,7 +734,7 @@
         "uuid": "840f4d27-b200-4683-84a6-ea26df310383"
       }
     ],
-    "used_designators": "#PWR23,#PWR57-60",
+    "used_designators": "J2,J5-6",
     "variants": []
   },
   "sheets": [
