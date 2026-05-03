@@ -1,0 +1,38 @@
+# KiCad Backup/Autosave Files
+*-backups/
+*.lck
+*~
+_autosave-*
+*.kicad_prl
+
+# KiCad Cache Files
+fp-info-cache
+*.cache
+*.tmp
+
+# KiCad Netlist/Routing Session Files
+*.dsn
+*.ses
+
+# Simulation Files
+*.cir
+*.out
+
+# Editor/IDE
+.history
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Gerber Manufacturing Temp Files
+*.drl.rpt
+*.pos
+
+# Miscellaneous
+*.bak
+*.log

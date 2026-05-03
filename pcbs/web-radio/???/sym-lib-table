@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TLV320DAC") (type "KiCad") (uri "${KIPRJMOD}/../../../libs/symbols/TLV320DAC3100IRHBR.kicad_sym") (options "") (descr "TLV320DAC3100 Audio Codec") (disabled) (hidden))
+	(lib (name "smallest.space") (type "KiCad") (uri "${KIPRJMOD}/../../../libs/symbols") (options "") (descr ""))
+)
