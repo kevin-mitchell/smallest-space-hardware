@@ -19826,7 +19826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smallest.space:SON95P300X300X100-7N"
+		(property "Footprint" "smallest-space-hardware/libs:SON95P300X300X100-7N"
 			(at 54.61 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -24769,7 +24769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "smallest.space:GCT_USB4085-GF-A_REVB"
+		(property "Footprint" "smallest-space-hardware/libs:GCT_USB4085-GF-A_REVB"
 			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25618,7 +25618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "smallest.space:54-00177-headphone-3.5mm-jack"
+		(property "Footprint" "smallest-space-hardware/libs:54-00177-headphone-3.5mm-jack"
 			(at 48.26 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -26350,7 +26350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "smallest.space:SLW-913535-2A-SMT"
+		(property "Footprint" "smallest-space-hardware/libs:SLW-913535-2A-SMT"
 			(at 34.29 123.19 0)
 			(hide yes)
 			(show_name no)
